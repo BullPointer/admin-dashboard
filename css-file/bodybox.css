@@ -1,0 +1,81 @@
+.container .bodybox {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(1fr, 2fr));
+    background: #e0e7ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .bodybox .project {
+    grid-row: 1/3;
+}
+.container .bodybox .project header{
+    margin: 8px;
+    padding-left: 10px;
+}
+.container .bodybox .project .boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container .bodybox .project .boxes .box {
+    margin: 8px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    border-left: 5px solid #e879f9;
+    color: #171717;
+}
+.container .bodybox .project .boxes .box:hover {
+    cursor: pointer;
+}
+.container .bodybox .project .boxes .box .head{
+    font-size: 13px;
+    font-weight: bold;
+}
+.container .bodybox .project .boxes .box .content{
+    font-size: 13px;
+}
+.container .bodybox .announcement {
+    display: flex;
+    flex-direction: column;
+}
+.container .bodybox .announcement header {
+    margin: 20px 0 10px 20px;
+}
+.container .bodybox .announcement .boxes {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    margin: 0 20px 10px 20px;
+    font-size: 12px;
+    row-gap: 10px;
+    background: white;
+    border-radius: 5px;
+}
+.container .bodybox .announcement .boxes .box:hover {
+    cursor: pointer;
+}
+.container .bodybox .trending {
+    margin-bottom: 30px;
+}
+.container .bodybox .trending header{
+    margin: 0 0 10px 20px;
+}
+.container .bodybox .trending .links{
+    background: white;
+    border-radius: 5px;
+    margin: 0 20px 0 20px;
+}
+.container .bodybox .trending a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(63, 60, 60);
+}
+.container .bodybox .trending a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 20px;
+}

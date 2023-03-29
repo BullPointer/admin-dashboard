@@ -1,0 +1,44 @@
+
+.container .topbar .top2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+.container .topbar .top2 .person {
+    display: flex;
+    align-items: center;
+}
+.container .topbar .top2 .person:hover {
+    cursor: pointer;
+}
+.container .topbar .top2 .person img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+.container .topbar .top2 .person .name{
+    margin-left: 15px;
+}
+.container .topbar .top2 .person .name .greet{
+    font-size: x-small;
+}
+.container .topbar .top2 .btn-bar {
+    display: flex;
+    text-align: center;
+    font-size: small;
+}
+.container .topbar .top2 .btn-bar .btn {
+    width: 50px;
+    padding: 3px;
+    margin-right: 10px;
+    background: #0369a1;
+    color: white;
+    border-radius: 10px;
+}
+.container .topbar .top2 .btn-bar .btn:hover {
+    cursor: pointer;
+}
